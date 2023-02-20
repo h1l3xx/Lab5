@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ac95bc18-934f-426d-8ca5-e8c4c99589ad" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/City/City.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/City/CityCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/City/CityCollectionCompareSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/City/CityCompareByDefault.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/City/CityCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/City/Climate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/City/Coordinates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/City/Government.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/City/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Commands/Add.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Commands/Clear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Commands/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Commands/ExecuteScript.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Commands/Exit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Commands/FilterContainsName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Commands/Help.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Commands/Info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Commands/PrintAscending.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Commands/RemoveAllByMetersAboveSeaLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Commands/RemoveAtIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Commands/RemoveLower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Commands/Save.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Commands/Show.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Commands/Sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Commands/UpdateIdArg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/Operator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/Parser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2LXrFbzywoeq5O9HmMwelFI48GF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ac95bc18-934f-426d-8ca5-e8c4c99589ad" name="Changes" comment="" />
+      <created>1676028168860</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676028168860</updated>
+      <workItem from="1676028170345" duration="12062000" />
+      <workItem from="1676120847328" duration="10885000" />
+      <workItem from="1676301059972" duration="11219000" />
+      <workItem from="1676475542479" duration="34595000" />
+      <workItem from="1676744582907" duration="3110000" />
+      <workItem from="1676910851630" duration="2985000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
