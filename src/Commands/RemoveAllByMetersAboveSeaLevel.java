@@ -11,7 +11,7 @@ public class RemoveAllByMetersAboveSeaLevel implements Command{
 
 
     @Override
-    public String comply(Object o) {
+    public void comply(Object o) {
         long meters = Long.parseLong((String) o);
 
 
@@ -24,7 +24,6 @@ public class RemoveAllByMetersAboveSeaLevel implements Command{
 
 
         System.out.println("Все города со значением параметра metersAboveSeaLevel эквивалентные заданному были удалены");
-        return null;
     }
 
     @Override

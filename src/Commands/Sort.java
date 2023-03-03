@@ -8,7 +8,7 @@ import java.util.LinkedList;
 
 public class Sort implements Command{
     @Override
-    public String comply(Object o){
+    public void comply(Object o){
         LinkedList<City> collection = CityCollection.getCollection();
 
         CityCollectionCompareSort c = new CityCollectionCompareSort();
@@ -16,8 +16,6 @@ public class Sort implements Command{
         collection.sort(c);
 
         System.out.println("Коллекция отсортирована в естественном порядке");
-
-        return null;
 
     }
 

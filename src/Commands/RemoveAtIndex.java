@@ -4,13 +4,12 @@ import City.CityCollection;
 public class RemoveAtIndex implements Command{
 
     @Override
-    public String comply(Object o){
+    public void comply(Object o){
         int index = Integer.parseInt((String) o);
 
 
         CityCollection.removeAtIndex(index);
         System.out.println("Элемент под индексом " + index + " удалён");
-        return null;
     }
 
     @Override

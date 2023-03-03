@@ -11,7 +11,7 @@ public class ExecuteScript implements Command {
     private static int count_lines;
 
     @Override
-    public String comply(Object o) throws IOException {
+    public void comply(Object o) throws IOException {
         try {
             BufferedReader buf_for_count_lines = new BufferedReader(new FileReader((String) o));
 
@@ -66,7 +66,7 @@ public class ExecuteScript implements Command {
             }
         }catch (IOException e){
             System.out.println("Ошибка. Либо не существует данного файла, либо путь до файла некорректный");
-        }return null;
+        }
     }
 
     @Override

@@ -15,7 +15,7 @@ public class Add implements Command{
 
 
     @Override
-    public String comply(Object o) {
+    public void comply(Object o) {
         CityCreator cityCreator = new CityCreator();
 
         City city;
@@ -39,9 +39,6 @@ public class Add implements Command{
         else {
             System.out.println("В коллекцию можно добавить только город (City)");
         }
-
-
-        return null;
     }
 
     @Override

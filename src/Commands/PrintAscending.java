@@ -12,7 +12,7 @@ import City.CityCompareByDefault;
 
 public class PrintAscending implements Command {
     @Override
-    public String comply(Object o){
+    public void comply(Object o){
 
         LinkedList<City> UnSortedCityCollection = CityCollection.getCollection();
 
@@ -29,9 +29,6 @@ public class PrintAscending implements Command {
         CityCompareByDefault compare = new CityCompareByDefault();
 
         collection.sort(compare);
-
-
-        return null;
     }
 
     @Override

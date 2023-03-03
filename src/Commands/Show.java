@@ -8,7 +8,7 @@ import java.util.LinkedList;
 public class Show implements Command{
 
     @Override
-    public String comply(Object o){
+    public void comply(Object o){
         LinkedList<City> collection = CityCollection.getCollection();
         if (collection.size() > 0) {
             for (City c : collection) {
@@ -19,7 +19,6 @@ public class Show implements Command{
             System.out.println("Коллекция пуста");
         }
 
-        return null;
     }
     @Override
     public String getName(){

@@ -7,7 +7,7 @@ import java.util.Iterator;
 
 public class RemoveLower implements Command{
     @Override
-    public String comply(Object o){
+    public void comply(Object o){
         int population = Integer.parseInt((String) o);
         for (Iterator<City> iterator = (Iterator<City>) CityCollection.getCollection().iterator(); iterator.hasNext();){
             City iterCity = iterator.next();
@@ -18,7 +18,6 @@ public class RemoveLower implements Command{
 
         System.out.println("Все города с населением меньше, чем " + population + " были удалены");
 
-        return null;
     }
 
     @Override

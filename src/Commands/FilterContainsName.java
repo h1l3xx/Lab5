@@ -6,7 +6,7 @@ import java.util.Iterator;
 
 public class FilterContainsName implements Command{
     @Override
-    public String comply(Object arg) {
+    public void comply(Object arg) {
 
         if (CityCollection.getSize() != 0) {
             for(Iterator<City> it = (Iterator<City>) CityCollection.getCollection().iterator(); it.hasNext();) {
@@ -15,14 +15,10 @@ public class FilterContainsName implements Command{
                     System.out.println(city.toString());}}
 
             System.out.println("Выведены все города, в названии которых есть заданная подстрока");
-            return null;
         }
         else {
             System.out.println("Коллекция пуста");
         }
-
-        return null;
-
     }
 
         @Override

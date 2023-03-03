@@ -5,9 +5,8 @@ import City.CityCollection;
 public class Info implements Command{
 
     @Override
-    public String comply(Object o){
+    public void comply(Object o){
         System.out.println("Тип коллекции: " + CityCollection.getType() + " дата инициализации: " + CityCollection.getTime() + " количество элементов: " + CityCollection.getSize());
-        return null;
     }
 
     @Override

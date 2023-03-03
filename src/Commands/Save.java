@@ -20,7 +20,7 @@ import java.util.LinkedList;
 
 public class Save implements Command{
     @Override
-    public String comply(Object o) throws IOException, ParserConfigurationException, TransformerException {
+    public void comply(Object o) throws IOException, ParserConfigurationException, TransformerException {
 
         CityCollection cityCollection = new CityCollection();
         LinkedList<City> collection = CityCollection.getCollection();
@@ -108,9 +108,6 @@ public class Save implements Command{
 
         System.out.println("Создание XML файла закончено");
         System.out.println("Записано в файл");
-
-
-        return null;
     }
 
     @Override
